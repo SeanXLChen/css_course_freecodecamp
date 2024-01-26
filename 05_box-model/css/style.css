@@ -1,0 +1,38 @@
+/* reset all user-agent settings for margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* default value is content-box;  */
+}
+
+.container {
+    font-size: 1.5rem;   /* default font-size is 16px */
+
+    /* margin-top: 2em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    margin-left: 1em; */
+    margin: 1.5em 1em 2em 1em;
+
+    padding: 1.5rem 3rem;
+
+    border: solid red;
+    border-top: 10px dotted blue;
+    border-right: 2px dashed papayawhip;
+    border-bottom: 10px double;
+    /* border style: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style */
+
+    outline: 20px solid rgba(0, 255, 0, 0.3); /* outline不占box model的空间 */
+    outline-offset: -5px; /* offset会根据正负来相对于border移动位置, 比如-5px就是向content box里移动5px */
+}
+
+.circle {
+    margin: 3rem auto;
+    background: gold;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000000;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+    border-radius: 50%;
+}

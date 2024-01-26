@@ -1,0 +1,23 @@
+body {
+    padding: 10%;
+    font-size: 1rem;
+    color: gray;
+    font-family: sans-serif;
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    /* font-weight: 800; */
+    font-weight: lighter;
+    font-style: italic;
+}

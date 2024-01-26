@@ -1,0 +1,41 @@
+/* 所有的html都可以继承这个属性*/
+html {
+    font-size: 22px;
+}
+
+/* 这个也可以被继承*/
+body {
+
+}
+
+/* main就是除了header其他都可以 */
+main {
+    font-family: monospace;
+}
+
+/* 一般的这几个element不会inherit, 所以需要设置 */
+button, input, textarea, select {
+    font: inherit;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
+

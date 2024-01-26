@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+header{
+    width: 80%;
+    border: 1px solid blue;
+}
+
 body {
-    min-height: 100vh;
+    width: 100%;
 }
 
 h1 {
@@ -15,11 +20,7 @@ h1 {
     padding: 0.5em;
 }
 
-main {
-    font-size: 2rem;
-}
-
 p {
     font-size: 2rem;
-    width: 40ch;
+    width: 50ch;    /* 一行不超过40个characters */
 }
